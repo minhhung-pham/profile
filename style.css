@@ -25,6 +25,7 @@
 
   --facebook: #1877f2;
   --linkedin: #0a66c2;
+  --instagram: #e1306c;
   --zalo: #0068ff;
 
   --orb-one: rgba(87, 164, 255, 0.38);
@@ -334,6 +335,10 @@ h1 {
 
 .linkedin .brand-icon {
   background: var(--linkedin);
+}
+
+.instagram .brand-icon {
+  background: linear-gradient(135deg, #feda75 0%, #fa7e1e 26%, #d62976 55%, #962fbf 78%, #4f5bd5 100%);
 }
 
 .zalo .brand-icon {

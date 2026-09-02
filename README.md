@@ -39,3 +39,7 @@ Sau khi deploy, thêm Custom Domain:
 `hungpham.net`
 
 Khuyên dùng `www.hungpham.net` redirect về `https://hungpham.net`.
+
+
+## Cập nhật
+- Đã thêm Instagram: https://www.instagram.com/minhhungpham/
