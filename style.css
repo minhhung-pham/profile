@@ -7,38 +7,38 @@
 :root {
   color-scheme: light dark;
 
-  --bg: #f3f5f9;
-  --text: #16181d;
-  --muted: #70747f;
+  --bg: #f4f2ed;
+  --text: #24231f;
+  --muted: #77736a;
 
-  --card: rgba(255, 255, 255, 0.76);
-  --card-border: rgba(255, 255, 255, 0.82);
+  --card: rgba(255, 255, 255, 0.80);
+  --card-border: rgba(190, 170, 118, 0.24);
 
-  --surface: rgba(255, 255, 255, 0.72);
-  --surface-hover: rgba(255, 255, 255, 0.96);
+  --surface: rgba(255, 255, 255, 0.70);
+  --surface-hover: rgba(255, 255, 255, 0.94);
 
-  --line: rgba(20, 24, 34, 0.08);
+  --line: rgba(120, 105, 70, 0.13);
 
   --shadow:
-    0 35px 100px rgba(31, 40, 65, 0.16),
-    0 2px 10px rgba(31, 40, 65, 0.06);
+    0 35px 100px rgba(92, 80, 52, 0.14),
+    0 2px 10px rgba(92, 80, 52, 0.06);
 
   --facebook: #1877f2;
   --linkedin: #0a66c2;
   --instagram: #e1306c;
   --zalo: #0068ff;
 
-  --orb-one: rgba(87, 164, 255, 0.38);
-  --orb-two: rgba(162, 116, 255, 0.27);
-  --orb-three: rgba(255, 173, 111, 0.28);
+  --orb-one: rgba(214, 183, 104, 0.34);
+  --orb-two: rgba(198, 193, 180, 0.30);
+  --orb-three: rgba(238, 225, 188, 0.34);
 }
 
 :root[data-theme="dark"] {
-  --bg: #070a12;
-  --text: #f5f7fb;
-  --muted: #9aa1b1;
+  --bg: #121210;
+  --text: #f5f3ed;
+  --muted: #aaa69d;
 
-  --card: rgba(14, 18, 30, 0.76);
+  --card: rgba(28, 28, 25, 0.82);
   --card-border: rgba(255, 255, 255, 0.09);
 
   --surface: rgba(255, 255, 255, 0.055);
@@ -50,17 +50,17 @@
     0 35px 110px rgba(0, 0, 0, 0.45),
     0 2px 12px rgba(0, 0, 0, 0.25);
 
-  --orb-one: rgba(36, 111, 255, 0.28);
-  --orb-two: rgba(138, 71, 255, 0.25);
-  --orb-three: rgba(255, 128, 62, 0.16);
+  --orb-one: rgba(184, 148, 62, 0.24);
+  --orb-two: rgba(160, 157, 148, 0.20);
+  --orb-three: rgba(218, 196, 137, 0.18);
 }
 
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --bg: #070a12;
-    --text: #f5f7fb;
-    --muted: #9aa1b1;
-    --card: rgba(14, 18, 30, 0.76);
+    --bg: #121210;
+    --text: #f5f3ed;
+    --muted: #aaa69d;
+    --card: rgba(28, 28, 25, 0.82);
     --card-border: rgba(255, 255, 255, 0.09);
     --surface: rgba(255, 255, 255, 0.055);
     --surface-hover: rgba(255, 255, 255, 0.085);
@@ -68,9 +68,9 @@
     --shadow:
       0 35px 110px rgba(0, 0, 0, 0.45),
       0 2px 12px rgba(0, 0, 0, 0.25);
-    --orb-one: rgba(36, 111, 255, 0.28);
-    --orb-two: rgba(138, 71, 255, 0.25);
-    --orb-three: rgba(255, 128, 62, 0.16);
+    --orb-one: rgba(184, 148, 62, 0.24);
+    --orb-two: rgba(160, 157, 148, 0.20);
+    --orb-three: rgba(218, 196, 137, 0.18);
   }
 }
 
@@ -219,9 +219,9 @@ body {
   border-radius: 50%;
   background:
     linear-gradient(var(--card), var(--card)) padding-box,
-    linear-gradient(135deg, #58a6ff, #9f7aea, #ff9b62) border-box;
+    linear-gradient(135deg, #d5b45f, #f2eee4, #9d9a91) border-box;
   border: 2px solid transparent;
-  box-shadow: 0 18px 40px rgba(35, 56, 95, 0.16);
+  box-shadow: 0 18px 40px rgba(92, 76, 38, 0.16);
 }
 
 .avatar {
@@ -240,7 +240,7 @@ body {
   bottom: 8px;
   border: 4px solid var(--card);
   border-radius: 50%;
-  background: #29c66f;
+  background: #c7a64a;
 }
 
 h1 {
@@ -300,7 +300,7 @@ h1 {
 .profile-link:hover {
   transform: translateY(-2px);
   background: var(--surface-hover);
-  box-shadow: 0 14px 30px rgba(24, 35, 58, 0.09);
+  box-shadow: 0 14px 30px rgba(92, 76, 38, 0.10);
 }
 
 .profile-link:active {
@@ -319,8 +319,8 @@ h1 {
   place-items: center;
   border-radius: 15px;
   color: #fff;
-  background: #262b34;
-  box-shadow: 0 9px 20px rgba(22, 28, 42, 0.14);
+  background: #6f6858;
+  box-shadow: 0 9px 20px rgba(82, 70, 42, 0.14);
 }
 
 .brand-icon svg {
